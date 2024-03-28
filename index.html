@@ -7,11 +7,34 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="logo-div"></div>
+  <div class="logo-div">SOME LOGO</div>
   <div class="form-div">
     <h1>This is page about diving courses!</h1>
     <p>Let's do this!</p>
-  </div>
-  
+    <form action="" method="get">
+      <div>
+        <label for="name">NAME*</label>
+        <input type="text" name="name" id="name" required>
+        <label for="last-name">LAST NAME*</label>
+        <input type="text" name="last-name" id="last-name" required>
+      </div>
+      <div>
+        <label for="email">EMAIL*</label>
+        <input type="email" name="email" id="email" required>
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+      <div>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" id="password">
+        <label for="conf-password">CONFIRM PASSWORD</label>
+        <input type="password" name="conf-password" id="conf-password">
+      </div>
+      <div>
+        <button type="submit">Create Account</button>
+      </div>
+      <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </form>
 </body>
 </html>

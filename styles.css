@@ -1,9 +1,22 @@
 * {
-  padding: 0;
-  margin: 0;
+  color: black;
+  font-family: helvetica;
 }
 body {
   background-image: url(./img/photo-1682695796497-31a44224d6d6.avif);
   background-size: cover;
-  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div {
+  background-color: white; 
+}
+
+.logo-div {
+  background-color: rgba(0, 0, 0, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
