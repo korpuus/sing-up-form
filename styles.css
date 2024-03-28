@@ -1,17 +1,36 @@
 * {
-  color: black;
-  font-family: helvetica;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
+
 body {
   background-image: url(./img/photo-1682695796497-31a44224d6d6.avif);
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Helvetica, sans-serif;
+  max-width: 1800px;
+}
+
+#logo {
+  width: 40%;
+  height: auto;
+}
+
+.logo-div { 
+  width: 50vw;
+  font-family: 'Helvetica Neue';
+  color: rgba(8,183,252,255);
+  font-size: 5vw;
 }
 
 .form-div {
-  background-color: white; 
+  color: initial;
+  background-color: white;
+  color: black; 
+  height: 70vw;
 }
 
 .logo-div {
@@ -19,4 +38,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+button,
+input {
+  font-family: inherit;
+  font-size: 1.5 rem;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label, input {
+  display: block; /* Make both label and input elements block-level elements */
+  margin-bottom: 10px; /* Add margin between each pair of label and input */
+}
+
+.input-row {
+  display: flex; 
+}
+
+.input-row > div {
+  margin-right: 60px; 
+}
+
+/* To remove margin from the last div in each row */
+.input-row > div:last-child {
+  margin-right: 0;
+}
+
+.form-div {
+  padding: 30px;
 }
