@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./img/photo-1682695796497-31a44224d6d6.avif);
+  background-size: cover;
+  color: black;
+}
