@@ -5,13 +5,26 @@
   overflow: hidden;
 }
 
-body {
-  background-image: url(./img/photo-1682695796497-31a44224d6d6.avif);
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  max-width: 1200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/photo-1682695796497-31a44224d6d6.avif);
+  background-size: cover;
+}
+
+body {
   font-family: Helvetica, sans-serif;
-  max-width: 1800px;
+  background-color: black;
 }
 
 #logo {
@@ -20,32 +33,25 @@ body {
 }
 
 .logo-div { 
-  width: 50vw;
   font-family: 'Helvetica Neue';
   color: rgba(8,183,252,255);
-  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
 }
 
 .form-div {
   color: initial;
   background-color: white;
   color: black; 
-  height: 70vw;
+  flex: 3;
 }
-
-.logo-div {
-  background-color: rgba(0, 0, 0, 20%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 button,
 input {
   font-family: inherit;
   font-size: 1.5 rem;
-  width: 150px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -69,6 +75,3 @@ label, input {
   margin-right: 0;
 }
 
-.form-div {
-  padding: 30px;
-}
