@@ -37,9 +37,22 @@ body {
   font-family: 'Helvetica Neue';
   color: rgba(8,183,252,255);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 2;
+}
+
+.logo-and-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
 }
 
 form {
@@ -54,6 +67,9 @@ form {
   color: black; 
   flex: 3;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button,
