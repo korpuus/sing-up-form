@@ -80,6 +80,7 @@ img {
 }
 
 .content-div {
+  font-family: 'Poppins', Helvetica, sans-serif;
   color: initial;
   background-color: rgb(247, 242, 242);
   color: black; 
@@ -131,10 +132,7 @@ input {
   border-radius: 3px;
   width: 200px;
   height: 25px; 
-}
-
-input:hover {
-  border-color: blue;
+  padding-left: 5px;
 }
 
 input:focus {
@@ -164,4 +162,18 @@ p {
 #link {
   text-decoration: none;
   color: #596D48;
+}
+
+.input-control.success input {
+  border-color: green;
+}
+
+.input-control.error input {
+  border-color: red;
+}
+
+.input-control .error {
+  color: red;
+  font-size: 9px;
+  height: 13px;
 }
