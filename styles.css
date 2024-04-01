@@ -75,10 +75,8 @@ a{
 img {
   width: 80px;
   height: auto;
-}
-
-form {
-  background-color: white;
+  padding-right: 10px;
+  min-width: 80px;
 }
 
 .content-div {
@@ -89,7 +87,16 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20px; /*whole right sight padding*/
+  /*padding-left: 20px;*/ /*whole right sight padding*/
+}
+
+.content-div-text {
+  padding-left: 20px;
+}
+
+.white-background {
+  padding-left: 20px;
+  background-color: white;
 }
 
 button,
@@ -139,9 +146,19 @@ button {
   background-color: #596D48;
   color: white;
   padding: 10px 40px;
+  margin: 20px 0;
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+p {
+  margin: 20px 0;
+  margin-right: 20px;
+}
+
+#log-in {
+  margin: 0;
 }
 
 #link {
